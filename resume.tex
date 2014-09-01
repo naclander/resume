@@ -1,0 +1,96 @@
+% LaTeX resume using res.cls
+\documentclass[line,letterpaper]{resume}
+\usepackage{scalefnt}
+\usepackage{hyperref}
+\usepackage[scale=1]{tgschola}
+\usepackage{multirow}
+\hypersetup{colorlinks=false, pdfborder={0 0 0}}
+
+\begin{document}
+
+\name{Nathan Aclander}
+\address{\href{www.aclander.com}{Personal website --- www.aclander.com}}
+\address{\href{mailto:nathan.aclander@ucla.com}{nathan.aclander@ucla.com} --- (949) 436-8945}
+
+
+\begin{resume}
+    \vspace{-24pt}
+    \section{\uppercase{Education}} {\sl Bachelor of Science,} \/
+    Computer Science \& Engineering \\
+    University of California, Los Angeles\\
+    Graduating, December 2014 \\
+
+    \vspace{-16pt}
+
+	\section{\uppercase{Work Experience}} {\sl\textbf{Amazon}} \hfill
+    Summer 2014--Fall 2014\\
+    \emph{SDE Intern} --- Worked at \underline{\href{http://security.amazon-jobs.com/index.html}
+    {Amazon Information Security}} supporting an internal tool designed to 
+	enable employees throughout the company manage preferences regarding the 
+	security state of their code.
+
+    {\sl\textbf{DIRECTV}} \hfill Summer 2013-- Fall 2013\\
+    \emph{Software Engineering Intern}
+    ---  Developed memory leak detection tool for 100k+ allocations,
+	cross architecture computability (ARM, MIPS, X86)
+
+    {\sl\textbf{UCLA Radio}} \hfill Fall 2011-- Fall 2014\\
+    \emph{Web Director} --- UCLA Radio website group leader, website administrator
+
+    {\sl\textbf{Student Technology Center}} \hfill Summer 2011-- winter 2014\\
+    \emph{Computer Technician} --- Customer Support Representative,
+IT support (software and hardware), network infrastructure support
+    \vspace{-6pt}
+
+	\section{\uppercase{Related Courses}}
+	\begin{tabular}{l l l}
+	Database Systems & Computer Architecture & Operating Systems  Principles \\
+	Algorithm Design & Digital Electronic Circuits & Digital Systems Design \\
+	Computer Networks & Programming Languages Principles& Embedded Systems Design\\
+    Parallel \& Distributed Computing & Computer Graphics\\
+	\end{tabular}
+
+\section{\uppercase{Course and Independent Projects}}
+	\begin{itemize}
+	\item Front/Back end development for uclaradio.com; layout design, feature implementation
+	\item Developed a tool to detect memory leaks on an always-on embedded MIPS/X86 system
+	\item Anti-theft Android App development using Google App Engine
+	\item Large scale software development; multithreaded implementation of GZIP in Java. Recreation of Pacman video game
+	\item Experience Building single threaded and multithreaded server software in C, Twisted, and Node.js
+	\item Experience writing a Unix shell understanding a subset of bash syntax that is also able to run commands in parallel
+	\item Personal Server management on X86/64 and Arm machines, varying OSs from Debian to CentOS
+	\item Implemented a RAM disc block device kernel module supporting reading/writing from various threads/processes
+	\item Implemented a simple file system supporting file, directories, soft/hard and conditional links
+	\item Designed a p2p client that supported parallel upload/downloads while maintaining OS security
+	\item Experience in analog and digital circuit design using OrCAD and Cadence
+	\item Particle Cell Code optimization using CUDA for C extension library
+	\end{itemize}
+    \vspace{-6pt}
+
+    \hfill \emph{For more projects see
+    \underline{\href{https://github.com/naclander}{naclander on github}}}.
+
+    \vspace{-15pt}
+
+    \section{\uppercase{Skills}}
+    {\sl\textbf{Languages:}}\/
+    C, C++, ruby (and Rails), bash, Coffeescript (and Jquery), Java, Python\\
+    {\sl\textbf{Operating Systems:}}\/
+	Extended experience developing on Linux environments, experience developing on
+	MS Visual Studio, XCode \\
+    {\sl\textbf{Software:}}\/
+	\begin{itemize}
+	\item Experience in Code Revision Software using Git, Mercurial, CVS, 
+	\item Experience with bug reporting software such Redmine and JIRA.
+	\end{itemize}
+    \vspace{-6pt}
+
+    
+    \section{\uppercase{Extra-Curricular}}
+    {\sl\textbf{Linux Users Group}} \hfill Fall 2013 -- Spring 2014\\
+    \emph{Vice President} --- A student organization at UCLA to help promote
+	and familiarize other students with the installation and usage of Linux,
+	both for school and for personal use.
+
+\end{resume}
+\end{document}
