@@ -6,4 +6,4 @@ To compile it, make sure you have latex installed, and run:
 
 You can download it [here](http://www.aclander.com/nathan_aclander_resume.pdf).
 
-Special thanks to [Ryan McGowan](https://github.com/RyanMcG) for the template.
+Special thanks to [Ryan McGowan](https://github.com/RyanMcG/personal-resume) for the template.
