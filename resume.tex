@@ -2,6 +2,7 @@
 \documentclass[line,letterpaper]{resume}
 \usepackage{scalefnt}
 \usepackage{hyperref}
+\usepackage[normalem]{ulem}
 %Default
 %\usepackage[scale=1]{tgschola}
 %Kurier
@@ -26,7 +27,6 @@
     \section{\uppercase{Education}} {\sl Bachelor of Science,} \/
     Computer Science \& Engineering \\
     University of California, Los Angeles\\
-    Graduated, December 2014 \\
 
     \vspace{-16pt}
 
@@ -41,9 +41,9 @@
     {\sl\textbf{Frameworks:}}\/
 	Ruby on Rails, Rspec, Spring, Junit, Flask, various AWS services\\
     {\sl\textbf{Operating Systems:}}\/
-	Administrating and developing Linux (RHEL/Debian/Arch) and Unix environments at scale\\
+	Administrating and developing on Linux (RHEL/Debian/Arch) and Unix environments at scale\\
     {\sl\textbf{Software:}}\/
-	Vim, Git, Mercurial, SVN, Redmine
+	\sout{Vim} Emacs, Git, Mercurial, SVN, Redmine
     \vspace{-6pt}
 
 	\section{\uppercase{Work Experience}}
@@ -79,6 +79,9 @@ IT support (software and hardware), network infrastructure support
 	\begin{itemize}
 	\item \underline{\href{https://github.com/naclander/uploader}{Uploader}} -
 	A tool to help people share files and links.
+        \item
+        \underline{\href{https://tinyurl.com/la495b3}{Various contributions}}
+        to emacs packages and ecosystem.
 	\item Front/Back end development for uclaradio.com, including layout design
 	      and feature implementation.
 	\item Memory-leak detection tool on an always-on embedded MIPS/X86 system.
@@ -93,8 +96,6 @@ IT support (software and hardware), network infrastructure support
 	\item Anti-theft Android App development using Google App Engine.
 	\item Implemented a RAM disc block device kernel module supporting
 	reading/writing from various threads/processes.
-	\item Implemented a simple file system supporting file, directories,
-	soft/hard and conditional links.
 	\end{itemize}
     \vspace{-6pt}
 
